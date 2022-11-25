@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Registartion Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+    <h1 align="center"><u>REGISTRATION FORM</u></h1>
+    <!-- <form name="RegForm" action="" onsubmit="return validate()" method="post"> -->
+
+        <p>Full Name: <input placeholder="enter your name" type="text" size="100" name="fname" id="fname"></p>
+        <br>
+        <p>Course Name: <input type="text" placeholder="enter course name" size="100" name="cname" id="cname" /></p>
+        <br>
+
+        <p>E-mail Address: <input type="text" placeholder="mail@gmail.com" size="100" name="email" id="email" /></p>
+
+
+        <br>
+        <p>Mobile no: <input type="text" size="100" placeholder="phone number" name="mobile" id="mobile" /></p>
+
+        <br>
+        
+
+        <p id="btna"><colspan="2">
+            <input style="background-color:rgb(168, 247, 11)" type="button" name="button" id="btn" value="Register" onclick="NewRow()" />&emsp;&emsp;
+            <input style="background-color:rgb(239, 150, 18)" type="reset" value="Reset"name="Reset" />
+        </p><br>
+        
+        <hr size="4" color="red"></hr>
+        <table id="tbl">
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Course Name</th>
+                    <th>Email address</th>
+                    <th>Mobile no</th>
+                </tr>
+            </thead>
+        </table>
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
