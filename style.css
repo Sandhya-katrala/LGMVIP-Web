@@ -1,0 +1,43 @@
+table{
+	margin-top: 30px;
+	text-align: center;
+	border: 10px;
+	border-color: solid black;
+	border-collapse: collapse;
+}
+
+#tbl td{
+	padding: 10px;
+	border: 1px;
+	border-style: solid;
+	border-color: rgb(4, 4, 4);
+	background-color: rgb(101, 235, 143);
+}
+
+#btna td input{
+	margin-top: 10%;
+	padding: 100px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	text-transform: capitalize;
+
+}
+
+#tbl th{
+	padding: 13px;
+	border: 2px;
+	border-style: solid;
+	border-color: rgb(0, 0, 0);
+	background: rgb(240, 220, 3);
+}
+
+body{
+	background: rgb(111, 111, 243);
+}
+form{
+    margin: 100;
+    border: 100px;
+    width: 1000px;
+}
